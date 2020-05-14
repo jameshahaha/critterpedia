@@ -11,8 +11,10 @@
     justify-content: center;
 }
 
-:global(button).nav-button {
-    margin-left: 1rem;
+:global(button).left-button {
+    margin-left: 40rem;
 }
 
-
+:global(button).right-button {
+    margin-left: 1rem;
+}

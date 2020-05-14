@@ -7,9 +7,9 @@ export function NavBar(){
         <div className={styles['nav-bar']}>
             <img className={styles['logo']} src={logo} alt="critterpedia logo"/>
             <SearchBar small/>
-            <button className={`button ${styles['nav-button']}`}>Sign In</button>
-            <button className={`button ${styles['nav-button']}`}>Register</button>
-            
+            {/* <button className={`button ${styles['left-button']}`}>Sign In</button>
+            <button className={`button ${styles['right-button']}`}>Register</button>
+             */}
         </div>
     );
 }

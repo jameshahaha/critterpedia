@@ -12,14 +12,14 @@ export function Categories(){
                     <CategoryItem label='More' icon="fa-plus-circle" showRightBorder/>
                 </div>
                 <div>    
-                    {/* <button className={`button ${styles['category-button']} ${styles['omit-right-border']}`}>
+                    <button className={`button ${styles['category-button']} ${styles['omit-right-border']}`}>
                         <span class="icon"><i className="fas fa-pen"></i></span>
                         <span>Login</span>
                     </button>
                     <button className={`button ${styles['category-button']}`}>
                             <span class="icon"><i className="fas fa-plus"></i></span>
                             <span>Sign Up</span>
-                    </button> */}
+                    </button>
                 </div>
             </div>
         </div>

@@ -6,7 +6,7 @@ export function SearchBar(props) {
     return(
         <div>
             <div className="field has-addons">
-                <div className="control">
+                {/* <div className="control">
                     <div className={`select ${sizeClass}`}>
                     <select name="category">
                         <option value="Villagers">Villagers</option>
@@ -15,9 +15,9 @@ export function SearchBar(props) {
                         <option value="Fossils">Fossils</option>
                     </select>
                     </div>
-                </div>
+                </div> */}
                 <p className="control">
-                    <button className={`button is-static ${sizeClass}`}>Name</button>
+                    <button className={`button is-static ${sizeClass}`}>Search:</button>
                 </p>
                 <p className="control">
                     <input className={`input ${sizeClass} ${styles['input-control']}`} type="text" placeholder="Marshal, Peacock Butterfly, Stego Skull..."/>
