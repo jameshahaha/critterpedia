@@ -2,7 +2,7 @@
     padding: 0.35rem;
     display: flex;
     align-items: center;
-    border-left: 1px solid #f7dd8d;
+    border-left: 1px solid  rgb(230,230,230);
 }
 
 .cat-item > * {
@@ -10,5 +10,5 @@
 }
 
 .right-border{
-    border-right: 1px solid #f7dd8d;
+    border-right: 1px solid rgb(230,230,230);
 }
